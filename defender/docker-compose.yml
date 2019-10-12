@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  defender:
+    image: defender:latest
+    ports:
+      - 80:80
+    restart: always
